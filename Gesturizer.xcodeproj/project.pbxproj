@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9FCE5E01ECC37930088C09A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCE5DF1ECC37930088C09A /* AppDelegate.swift */; };
+		A9FCE5E21ECC37930088C09A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCE5E11ECC37930088C09A /* ViewController.swift */; };
+		A9FCE5E51ECC37930088C09A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FCE5E31ECC37930088C09A /* Main.storyboard */; };
+		A9FCE5E71ECC37930088C09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FCE5E61ECC37930088C09A /* Assets.xcassets */; };
+		A9FCE5EA1ECC37930088C09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FCE5E81ECC37930088C09A /* LaunchScreen.storyboard */; };
+		A9FCE5F51ECC37940088C09A /* GesturizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCE5F41ECC37940088C09A /* GesturizerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9FCE5F11ECC37940088C09A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9FCE5D41ECC37930088C09A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FCE5DB1ECC37930088C09A;
+			remoteInfo = Gesturizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9FCE5DC1ECC37930088C09A /* Gesturizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gesturizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FCE5DF1ECC37930088C09A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9FCE5E11ECC37930088C09A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9FCE5E41ECC37930088C09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9FCE5E61ECC37930088C09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9FCE5E91ECC37930088C09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9FCE5EB1ECC37930088C09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FCE5F01ECC37940088C09A /* GesturizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FCE5F41ECC37940088C09A /* GesturizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturizerTests.swift; sourceTree = "<group>"; };
+		A9FCE5F61ECC37940088C09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9FCE5D91ECC37930088C09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FCE5ED1ECC37940088C09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9FCE5D31ECC37930088C09A = {
+			isa = PBXGroup;
+			children = (
+				A9FCE5DE1ECC37930088C09A /* Gesturizer */,
+				A9FCE5F31ECC37940088C09A /* GesturizerTests */,
+				A9FCE5DD1ECC37930088C09A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9FCE5DD1ECC37930088C09A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9FCE5DC1ECC37930088C09A /* Gesturizer.app */,
+				A9FCE5F01ECC37940088C09A /* GesturizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9FCE5DE1ECC37930088C09A /* Gesturizer */ = {
+			isa = PBXGroup;
+			children = (
+				A9FCE5DF1ECC37930088C09A /* AppDelegate.swift */,
+				A9FCE5E11ECC37930088C09A /* ViewController.swift */,
+				A9FCE5E31ECC37930088C09A /* Main.storyboard */,
+				A9FCE5E61ECC37930088C09A /* Assets.xcassets */,
+				A9FCE5E81ECC37930088C09A /* LaunchScreen.storyboard */,
+				A9FCE5EB1ECC37930088C09A /* Info.plist */,
+			);
+			path = Gesturizer;
+			sourceTree = "<group>";
+		};
+		A9FCE5F31ECC37940088C09A /* GesturizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9FCE5F41ECC37940088C09A /* GesturizerTests.swift */,
+				A9FCE5F61ECC37940088C09A /* Info.plist */,
+			);
+			path = GesturizerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9FCE5DB1ECC37930088C09A /* Gesturizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FCE5F91ECC37940088C09A /* Build configuration list for PBXNativeTarget "Gesturizer" */;
+			buildPhases = (
+				A9FCE5D81ECC37930088C09A /* Sources */,
+				A9FCE5D91ECC37930088C09A /* Frameworks */,
+				A9FCE5DA1ECC37930088C09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gesturizer;
+			productName = Gesturizer;
+			productReference = A9FCE5DC1ECC37930088C09A /* Gesturizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9FCE5EF1ECC37940088C09A /* GesturizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FCE5FC1ECC37940088C09A /* Build configuration list for PBXNativeTarget "GesturizerTests" */;
+			buildPhases = (
+				A9FCE5EC1ECC37940088C09A /* Sources */,
+				A9FCE5ED1ECC37940088C09A /* Frameworks */,
+				A9FCE5EE1ECC37940088C09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FCE5F21ECC37940088C09A /* PBXTargetDependency */,
+			);
+			name = GesturizerTests;
+			productName = GesturizerTests;
+			productReference = A9FCE5F01ECC37940088C09A /* GesturizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9FCE5D41ECC37930088C09A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Marco Nie";
+				TargetAttributes = {
+					A9FCE5DB1ECC37930088C09A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4R654B6GSN;
+						ProvisioningStyle = Automatic;
+					};
+					A9FCE5EF1ECC37940088C09A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4R654B6GSN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9FCE5DB1ECC37930088C09A;
+					};
+				};
+			};
+			buildConfigurationList = A9FCE5D71ECC37930088C09A /* Build configuration list for PBXProject "Gesturizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9FCE5D31ECC37930088C09A;
+			productRefGroup = A9FCE5DD1ECC37930088C09A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9FCE5DB1ECC37930088C09A /* Gesturizer */,
+				A9FCE5EF1ECC37940088C09A /* GesturizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9FCE5DA1ECC37930088C09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FCE5EA1ECC37930088C09A /* LaunchScreen.storyboard in Resources */,
+				A9FCE5E71ECC37930088C09A /* Assets.xcassets in Resources */,
+				A9FCE5E51ECC37930088C09A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FCE5EE1ECC37940088C09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9FCE5D81ECC37930088C09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FCE5E21ECC37930088C09A /* ViewController.swift in Sources */,
+				A9FCE5E01ECC37930088C09A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FCE5EC1ECC37940088C09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FCE5F51ECC37940088C09A /* GesturizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9FCE5F21ECC37940088C09A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FCE5DB1ECC37930088C09A /* Gesturizer */;
+			targetProxy = A9FCE5F11ECC37940088C09A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9FCE5E31ECC37930088C09A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FCE5E41ECC37930088C09A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9FCE5E81ECC37930088C09A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FCE5E91ECC37930088C09A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9FCE5F71ECC37940088C09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9FCE5F81ECC37940088C09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9FCE5FA1ECC37940088C09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4R654B6GSN;
+				INFOPLIST_FILE = Gesturizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nie11kun.Gesturizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A9FCE5FB1ECC37940088C09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4R654B6GSN;
+				INFOPLIST_FILE = Gesturizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nie11kun.Gesturizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A9FCE5FD1ECC37940088C09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4R654B6GSN;
+				INFOPLIST_FILE = GesturizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nie11kun.GesturizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gesturizer.app/Gesturizer";
+			};
+			name = Debug;
+		};
+		A9FCE5FE1ECC37940088C09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4R654B6GSN;
+				INFOPLIST_FILE = GesturizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nie11kun.GesturizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gesturizer.app/Gesturizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9FCE5D71ECC37930088C09A /* Build configuration list for PBXProject "Gesturizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FCE5F71ECC37940088C09A /* Debug */,
+				A9FCE5F81ECC37940088C09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FCE5F91ECC37940088C09A /* Build configuration list for PBXNativeTarget "Gesturizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FCE5FA1ECC37940088C09A /* Debug */,
+				A9FCE5FB1ECC37940088C09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9FCE5FC1ECC37940088C09A /* Build configuration list for PBXNativeTarget "GesturizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FCE5FD1ECC37940088C09A /* Debug */,
+				A9FCE5FE1ECC37940088C09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9FCE5D41ECC37930088C09A /* Project object */;
+}
