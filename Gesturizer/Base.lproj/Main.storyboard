@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Gesturizer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,62 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gesturizer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PaU-jJ-qht">
+                                <rect key="frame" x="115" y="314.5" width="145" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="PaU-jJ-qht" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uyk-NT-5nF"/>
+                            <constraint firstItem="PaU-jJ-qht" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VoI-fR-3yn"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="kFD-TQ-hns" appends="YES" id="rS4-0B-q4k"/>
+                            <outletCollection property="gestureRecognizers" destination="Eib-xS-ykH" appends="YES" id="HCT-vX-tC4"/>
+                            <outletCollection property="gestureRecognizers" destination="8me-x1-16h" appends="YES" id="n7U-Aw-vdU"/>
+                            <outletCollection property="gestureRecognizers" destination="xDT-IX-z9G" appends="YES" id="V3t-4i-Cyc"/>
+                            <outletCollection property="gestureRecognizers" destination="Rdc-DB-KfW" appends="YES" id="Hbo-0T-gJi"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="doubleTapRecognizer" destination="Eib-xS-ykH" id="yPH-gO-6H9"/>
+                        <outlet property="gesturizerName" destination="PaU-jJ-qht" id="fQo-R6-rzy"/>
+                        <outlet property="singleTapRecognizer" destination="kFD-TQ-hns" id="dk7-0V-oNJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="kFD-TQ-hns" userLabel="Single Tap">
+                    <connections>
+                        <action selector="singleTap:" destination="BYZ-38-t0r" id="Vtq-G6-p3S"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="Eib-xS-ykH" userLabel="Double Tap">
+                    <connections>
+                        <action selector="doubleTap:" destination="BYZ-38-t0r" id="bOT-I8-zTz"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pinchGestureRecognizer id="8me-x1-16h" userLabel="Pinch">
+                    <connections>
+                        <action selector="pinch:" destination="BYZ-38-t0r" id="B4v-cd-EMF"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="xDT-IX-z9G" userLabel="Rotation">
+                    <connections>
+                        <action selector="rotation:" destination="BYZ-38-t0r" id="EGA-cs-00T"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="Rdc-DB-KfW" userLabel="Right Swipe">
+                    <connections>
+                        <action selector="swipe:" destination="BYZ-38-t0r" id="cuL-ue-fMP"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
     </scenes>
 </document>
